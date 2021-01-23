@@ -37,6 +37,6 @@ var helpTxt = `
     <div class="code">
     <span class="count">1 </span><span class="white">Mary </span>&lt;<span class='answer'>did not</span> / <span class='answer'>didn't</span>&gt; <span class="white"> have a little</span> &lt;<span class='answer'>lamb</span>&gt;</span> </span><span class="white">.</span></div>
     <br>
-    Spaces within the gaps will be trimmed.The correct answer is always the first string of text in the response but multiple alternative answers can be defined by listing them with / character. </p>
+    Spaces within the gaps will be trimmed.The correct answer is always the first string of text in the response but multiple alternative answers can be defined by listing them with / character. <br>added to github</p>
 `;
 //It's fleece was white as snow
