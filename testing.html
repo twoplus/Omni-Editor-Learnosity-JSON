@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Testing</title>
+</head>
+<body>
+    <div id="app">wert </div>
+    <script>
+        var app = document.getElementById("app");
+        var apptext = app.textContent;
+        var gapMark = /@/g;
+        var out = apptext.replace(gapMark,"_____");
+        app.innerHTML = out;
+    </script>
+</body>
+</html>
+

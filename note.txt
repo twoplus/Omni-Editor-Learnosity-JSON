@@ -1,0 +1,34 @@
+var omni_template = {
+    rubric: "[Rubric text]",
+    questions: [
+        {
+            stimulus_template: "Text text @.",
+            responses: [ 
+                {
+                    answer: ["ans_1","ans_1A"],
+                    decoy: ["dec_1","dec_2"],
+                    hint: "(hint text)",
+                    feedback: {
+                        positive: "positive feedback",
+                        negative: "negative feedback"
+                    }
+                }  
+            ],
+            tags: ["GSE: 13"]
+        }
+    ]
+}
+
+SCQ: Mary had a little <lamb|dog>
+MCQ: Mary had a little <lamb/ewe|dog>
+FTG: Mary had a little <lamb>
+DGD: Mary had a little <lamb>
+DPD: Mary had a little <lamb|dog>
+TKH: Mary had a little <lamb|dog>
+MTG: Mary had <a little lamb>
+STT: Mary <had a little lamb>
+ORL: Mary|had|a little|<lamb>
+CGN: Nouns <lamb/dog> Adjectives <green/fast>
+
+
+  

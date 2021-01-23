@@ -1,0 +1,5 @@
+###sample code
+
+Select the correct answer.
+Mary had a little <lamb|dog/cat>.
+George never wore his <hat|scarf/cigar>.
